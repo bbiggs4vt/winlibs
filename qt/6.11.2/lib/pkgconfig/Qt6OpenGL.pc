@@ -1,0 +1,13 @@
+prefix=/home/user/winlibs/qt/6.11.2
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libexecdir=${prefix}/bin
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Qt6 OpenGL
+Description: Qt OpenGL module
+Version: 6.11.2
+Libs: -L${libdir} -lQt6OpenGL
+Cflags: -I${includedir}/QtOpenGL -I${includedir} -DQT_OPENGL_LIB
+Requires: Qt6Core Qt6Gui

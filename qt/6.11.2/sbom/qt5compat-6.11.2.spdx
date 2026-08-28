@@ -1,0 +1,540 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qt5compat-6.11.2
+DocumentNamespace: https://qt.io/spdxdocs/qt5compat-6.11.2-host-linux-x86_64-target-windows-mingw-x86_64-fe45a291-7ee7-517f-87cd-284d8571f5fd
+Creator: Organization: TheQtCompany
+Creator: Tool: Qt Build System
+CreatorComment: <text>This SPDX document was created from CMake 3.28.3, using the qt
+build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
+Created: 2026-08-28T15:09:24Z
+ExternalDocumentRef: DocumentRef-qtbase-91d8493106e5 https://qt.io/spdxdocs/qtbase-6.11.2-host-linux-x86_64-target-windows-mingw-x86_64-c3cc7944-784b-5458-ae65-6e3ad5af7e6f SHA1: 7c687af8de20be6fd665df2323d31f51381ec403
+
+PackageName: qt5compat
+SPDXID: SPDXRef-Package-qt5compat-745310ad9a9b
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt5compat:6.11.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qt5compat@6.11.2
+PackageVersion: 6.11.2
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qt5compat@6.11.2
+PackageSupplier: Organization: TheQtCompany
+PackageDownloadLocation: git://code.qt.io/qt/qt5compat.git@abebcdb4964aa1f9ca01b97d793ed57d305d2a66
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: Copyright (C) The Qt Company Ltd. and other contributors.
+PackageHomePage: https://qt.io
+PackageComment: <text>Built by CMake 3.28.3 with Release configuration for Windows (x86_64)</text>
+FilesAnalyzed: false
+BuiltDate: 2026-08-28T15:09:24Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qt5compat-745310ad9a9b
+Relationship: SPDXRef-Package-qt5compat-system-build-tool-CMake-745310ad9a9b BUILD_DEPENDENCY_OF SPDXRef-Package-qt5compat-745310ad9a9b
+RelationshipComment: <text>SPDXRef-Package-qt5compat-745310ad9a9b is built using CMake version 3.28.3</text>
+Relationship: SPDXRef-Package-qt5compat-system-build-tool-CMake-generator-Ninja-745310ad9a9b BUILD_DEPENDENCY_OF SPDXRef-Package-qt5compat-745310ad9a9b
+RelationshipComment: <text>SPDXRef-Package-qt5compat-745310ad9a9b is built using generator CMAKE_GENERATOR: 'Ninja' and CMAKE_MAKE_PROGRAM: 'ninja' version '1.11.1'</text>
+Relationship: SPDXRef-Package-qt5compat-system-build-tool-Compiler-GNU-745310ad9a9b BUILD_DEPENDENCY_OF SPDXRef-Package-qt5compat-745310ad9a9b
+RelationshipComment: <text>SPDXRef-Package-qt5compat-745310ad9a9b is built by compiler: 'GNU' version: '13.0.0' frontend variant: 'GNU'</text>
+
+PackageName: Core5Compat_Attribution_qbig5codecs
+SPDXID: SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qbig5codecs-745310ad9a9b
+PackageDownloadLocation: NOASSERTION
+PackageVersion: unknown
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qt5compat@abebcdb?library_name=Core5Compat_Attribution_qbig5codecs
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qt5compat-Core5Compat_Attribution_qbig5codecs@abebcdb?vcs_url=https://code.qt.io/qt/qt5compat.git@abebcdb&library_name=Core5Compat_Attribution_qbig5codecs
+PackageCopyrightText: <text>Copyright (C) 2000  Ming-Che Chuang
+Copyright (C) 2001, 2002  James Su, Turbolinux Inc.
+Copyright (C) 2002  WU Yi, HancomLinux Inc.
+Copyright (C) 2001, 2002  Anthony Fok, ThizLinux Laboratory Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: Core5Compat_Attribution_qbig5codecs
+    Information extracted from:
+     /src_dir/qt5compat/src/core5/codecs/qt_attribution.json
+    Entry index: 0
+    Id: qbig5codecs
+    Name: Text Codecs: Big5, Big5-HKSCS
+    Description: The Big5 codecs (QBig5Codec, QBig5hkscsCodec)
+provide conversion to and from the Big5 encodings.
+    Qt usage: Used in Qt Core if ICU is not used. Configure with -icu to avoid.
+    License: BSD 2-clause "Simplified" License
+    License file: LICENSE.QBIG5CODEC.txt
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qt5compat-745310ad9a9b CONTAINS SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qbig5codecs-745310ad9a9b
+
+PackageName: Core5Compat_Attribution_qeucjpcodec
+SPDXID: SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qeucjpcodec-745310ad9a9b
+PackageDownloadLocation: NOASSERTION
+PackageVersion: unknown
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qt5compat@abebcdb?library_name=Core5Compat_Attribution_qeucjpcodec
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qt5compat-Core5Compat_Attribution_qeucjpcodec@abebcdb?vcs_url=https://code.qt.io/qt/qt5compat.git@abebcdb&library_name=Core5Compat_Attribution_qeucjpcodec
+PackageCopyrightText: <text>Copyright (C) 1999 Serika Kurusugawa.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: Core5Compat_Attribution_qeucjpcodec
+    Information extracted from:
+     /src_dir/qt5compat/src/core5/codecs/qt_attribution.json
+    Entry index: 1
+    Id: qeucjpcodec
+    Name: Text Codec: EUC-JP
+    Description: The EUC-JP text codec provides conversion to and from EUC-JP,
+the main legacy encoding for Unix machines in Japan.
+    Qt usage: Used in Qt Core if ICU is not used. Configure with -icu to avoid.
+    License: BSD 2-clause "Simplified" License
+    License file: LICENSE.QEUCJPCODEC.txt
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qt5compat-745310ad9a9b CONTAINS SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qeucjpcodec-745310ad9a9b
+
+PackageName: Core5Compat_Attribution_qeuckrcodec
+SPDXID: SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qeuckrcodec-745310ad9a9b
+PackageDownloadLocation: NOASSERTION
+PackageVersion: unknown
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qt5compat@abebcdb?library_name=Core5Compat_Attribution_qeuckrcodec
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qt5compat-Core5Compat_Attribution_qeuckrcodec@abebcdb?vcs_url=https://code.qt.io/qt/qt5compat.git@abebcdb&library_name=Core5Compat_Attribution_qeuckrcodec
+PackageCopyrightText: <text>Copyright (C) 1999-2000 Mizi Research Inc.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: Core5Compat_Attribution_qeuckrcodec
+    Information extracted from:
+     /src_dir/qt5compat/src/core5/codecs/qt_attribution.json
+    Entry index: 2
+    Id: qeuckrcodec
+    Name: Text Codec: EUC-KR
+    Description: The EUC-KR text codec provides conversion to and from EUC-KR, KR,
+the main legacy encoding for Unix machines in Korea.
+    Qt usage: Used in Qt Core if ICU is not used. Configure with -icu to avoid.
+    License: BSD 2-clause "Simplified" License
+    License file: LICENSE.QEUCKRCODEC.txt
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qt5compat-745310ad9a9b CONTAINS SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qeuckrcodec-745310ad9a9b
+
+PackageName: Core5Compat_Attribution_qjiscodec
+SPDXID: SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qjiscodec-745310ad9a9b
+PackageDownloadLocation: NOASSERTION
+PackageVersion: unknown
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qt5compat@abebcdb?library_name=Core5Compat_Attribution_qjiscodec
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qt5compat-Core5Compat_Attribution_qjiscodec@abebcdb?vcs_url=https://code.qt.io/qt/qt5compat.git@abebcdb&library_name=Core5Compat_Attribution_qjiscodec
+PackageCopyrightText: <text>Copyright (C) 1999 Serika Kurusugawa.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: Core5Compat_Attribution_qjiscodec
+    Information extracted from:
+     /src_dir/qt5compat/src/core5/codecs/qt_attribution.json
+    Entry index: 3
+    Id: qjiscodec
+    Name: Text Codec: ISO 2022-JP (JIS)
+    Description: The ISO 2022-JP (JIS) text codec provides conversion to and from ISO 2022-JP.
+    Qt usage: Used in Qt Core if ICU is not used. Configure with -icu to avoid.
+    License: BSD 2-clause "Simplified" License
+    License file: LICENSE.QJISCODEC.txt
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qt5compat-745310ad9a9b CONTAINS SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qjiscodec-745310ad9a9b
+
+PackageName: Core5Compat_Attribution_qsjiscodec
+SPDXID: SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qsjiscodec-745310ad9a9b
+PackageDownloadLocation: NOASSERTION
+PackageVersion: unknown
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qt5compat@abebcdb?library_name=Core5Compat_Attribution_qsjiscodec
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qt5compat-Core5Compat_Attribution_qsjiscodec@abebcdb?vcs_url=https://code.qt.io/qt/qt5compat.git@abebcdb&library_name=Core5Compat_Attribution_qsjiscodec
+PackageCopyrightText: <text>Copyright (C) 1999 Serika Kurusugawa.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: Core5Compat_Attribution_qsjiscodec
+    Information extracted from:
+     /src_dir/qt5compat/src/core5/codecs/qt_attribution.json
+    Entry index: 4
+    Id: qsjiscodec
+    Name: Text Codec: Shift-JIS
+    Description: The Shift-JIS text codec provides conversion to and from Shift-JIS.
+    Qt usage: Used in Qt Core if ICU is not used. Configure with -icu to avoid.
+    License: BSD 2-clause "Simplified" License
+    License file: LICENSE.QSJISCODEC.txt
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qt5compat-745310ad9a9b CONTAINS SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qsjiscodec-745310ad9a9b
+
+PackageName: Core5Compat_Attribution_qtsciicodec
+SPDXID: SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qtsciicodec-745310ad9a9b
+PackageDownloadLocation: NOASSERTION
+PackageVersion: unknown
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qt5compat@abebcdb?library_name=Core5Compat_Attribution_qtsciicodec
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qt5compat-Core5Compat_Attribution_qtsciicodec@abebcdb?vcs_url=https://code.qt.io/qt/qt5compat.git@abebcdb&library_name=Core5Compat_Attribution_qtsciicodec
+PackageCopyrightText: <text>Copyright (C) 2000 Hans Petter Bieker.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: Core5Compat_Attribution_qtsciicodec
+    Information extracted from:
+     /src_dir/qt5compat/src/core5/codecs/qt_attribution.json
+    Entry index: 5
+    Id: qtsciicodec
+    Name: Text Codec: TSCII
+    Description: The TSCII text codec provides conversion to and from the Tamil TSCII
+encoding.
+    Qt usage: Used in Qt Core.
+    License: BSD 2-clause "Simplified" License
+    License file: LICENSE.QTSCIICODEC.txt
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qt5compat-745310ad9a9b CONTAINS SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qtsciicodec-745310ad9a9b
+
+PackageName: Core5Compat_Attribution_qbkcodec
+SPDXID: SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qbkcodec-745310ad9a9b
+PackageDownloadLocation: NOASSERTION
+PackageVersion: unknown
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qt5compat@abebcdb?library_name=Core5Compat_Attribution_qbkcodec
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qt5compat-Core5Compat_Attribution_qbkcodec@abebcdb?vcs_url=https://code.qt.io/qt/qt5compat.git@abebcdb&library_name=Core5Compat_Attribution_qbkcodec
+PackageCopyrightText: <text>Copyright (C) 2000 TurboLinux, Inc.  Written by Justin Yu and Sean Chen.
+Copyright (C) 2001, 2002 Turbolinux, Inc.  Written by James Su.
+Copyright (C) 2001, 2002 ThizLinux Laboratory Ltd.  Written by Anthony Fok.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: Core5Compat_Attribution_qbkcodec
+    Information extracted from:
+     /src_dir/qt5compat/src/core5/codecs/qt_attribution.json
+    Entry index: 6
+    Id: qbkcodec
+    Name: Text Codec: GBK
+    Description: The GBK codec provides conversion to and from the Chinese
+GB18030/GBK/GB2312 encoding.
+    Qt usage: Used in Qt Core if ICU is not used. Configure with -icu to avoid.
+    License: BSD 2-clause "Simplified" License
+    License file: LICENSE.QBKCODEC.txt
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qt5compat-745310ad9a9b CONTAINS SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qbkcodec-745310ad9a9b
+
+PackageName: Core5Compat
+SPDXID: SPDXRef-Package-qt5compat-qt-module-Core5Compat-745310ad9a9b
+PackageDownloadLocation: git://code.qt.io/qt/qt5compat.git@abebcdb4964aa1f9ca01b97d793ed57d305d2a66
+PackageVersion: 6.11.2
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qt5compat@abebcdb?library_name=Core5Compat#src/core5
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qt5compat-Core5Compat@abebcdb?vcs_url=https://code.qt.io/qt/qt5compat.git@abebcdb&library_name=Core5Compat#src/core5
+PackageCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: Core5Compat
+CMake exported target name: Qt6::Core5Compat
+Contained in CMake package: Qt6Core5Compat
+</text>
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.11.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt5compat:6.11.2:*:*:*:*:*:*:*
+PackageVerificationCode: 7333dc4257174a1449d2fd43133828e00b0a017f
+FilesAnalyzed: true
+Relationship: SPDXRef-Package-qt5compat-745310ad9a9b CONTAINS SPDXRef-Package-qt5compat-qt-module-Core5Compat-745310ad9a9b
+Relationship: SPDXRef-Package-qt5compat-qt-module-Core5Compat-745310ad9a9b DEPENDS_ON DocumentRef-qtbase-91d8493106e5:SPDXRef-Package-qtbase-qt-module-Core-91d8493106e5
+Relationship: SPDXRef-Package-qt5compat-qt-module-Core5Compat-745310ad9a9b DEPENDS_ON DocumentRef-qtbase-91d8493106e5:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-91d8493106e5
+Relationship: SPDXRef-Package-qt5compat-qt-module-Core5Compat-745310ad9a9b DEPENDS_ON SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qbig5codecs-745310ad9a9b
+Relationship: SPDXRef-Package-qt5compat-qt-module-Core5Compat-745310ad9a9b DEPENDS_ON SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qeucjpcodec-745310ad9a9b
+Relationship: SPDXRef-Package-qt5compat-qt-module-Core5Compat-745310ad9a9b DEPENDS_ON SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qeuckrcodec-745310ad9a9b
+Relationship: SPDXRef-Package-qt5compat-qt-module-Core5Compat-745310ad9a9b DEPENDS_ON SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qjiscodec-745310ad9a9b
+Relationship: SPDXRef-Package-qt5compat-qt-module-Core5Compat-745310ad9a9b DEPENDS_ON SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qsjiscodec-745310ad9a9b
+Relationship: SPDXRef-Package-qt5compat-qt-module-Core5Compat-745310ad9a9b DEPENDS_ON SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qtsciicodec-745310ad9a9b
+Relationship: SPDXRef-Package-qt5compat-qt-module-Core5Compat-745310ad9a9b DEPENDS_ON SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qbkcodec-745310ad9a9b
+
+FileName: ./bin/Qt6Core5Compat.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b
+FileType: BINARY
+FileChecksum: SHA1: e96f332f024cdc169756e9726e523b64f90aba59
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qt5compat-qt-module-Core5Compat-745310ad9a9b CONTAINS SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5//tmp/claude-0/-home-user-winlibs/f343f3a4-6c75-5ecd-a050-15e02fa072aa/scratchpad/build/qt-cross-qt5compat/src/core5/Core5Compat_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qcodecmacros_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qtextcodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qutfcodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qutfcodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/qcore5global.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/sax/qxml.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/sax/qxml.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/sax/qxml_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjson.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjson.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjson_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjsonarray.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjsonarray_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjsonobject.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjsonobject_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjsonvalue.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjsonvalue_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/text/qregexp.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/text/qregexp.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/text/qstringref.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/text/qstringref.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/tools/qlinkedlist.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/tools/qlinkedlist.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qt5compat/src/core5/qtcore5compat-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qt5compat/src/core5/qtcore5compat-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qlatincodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qlatincodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qsimplecodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qsimplecodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qtextcodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qtextcodec.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qisciicodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qisciicodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qtsciicodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qtsciicodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qbig5codec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qbig5codec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qeucjpcodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qeucjpcodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qeuckrcodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qeuckrcodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qgb18030codec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qgb18030codec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qjiscodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qjiscodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qjpunicode.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qjpunicode_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qsjiscodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qsjiscodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qwindowscodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qwindowscodec_p.h
+
+FileName: ./lib/libQt6Core5Compat.a
+SPDXID: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b
+FileType: BINARY
+FileChecksum: SHA1: 7dd304e1b224150f1b102c5cfae3677e61bc8170
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qt5compat-qt-module-Core5Compat-745310ad9a9b CONTAINS SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5//tmp/claude-0/-home-user-winlibs/f343f3a4-6c75-5ecd-a050-15e02fa072aa/scratchpad/build/qt-cross-qt5compat/src/core5/Core5Compat_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qcodecmacros_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qtextcodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qutfcodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qutfcodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/qcore5global.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/sax/qxml.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/sax/qxml.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/sax/qxml_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjson.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjson.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjson_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjsonarray.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjsonarray_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjsonobject.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjsonobject_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjsonvalue.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/serialization/qbinaryjsonvalue_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/text/qregexp.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/text/qregexp.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/text/qstringref.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/text/qstringref.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/tools/qlinkedlist.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/tools/qlinkedlist.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qt5compat/src/core5/qtcore5compat-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qt5compat/src/core5/qtcore5compat-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qlatincodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qlatincodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qsimplecodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qsimplecodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qtextcodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qtextcodec.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qisciicodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qisciicodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qtsciicodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qtsciicodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qbig5codec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qbig5codec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qeucjpcodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qeucjpcodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qeuckrcodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qeuckrcodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qgb18030codec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qgb18030codec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qjiscodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qjiscodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qjpunicode.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qjpunicode_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qsjiscodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qsjiscodec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qwindowscodec.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Core5Compat-ImportLibrary-745310ad9a9b GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qt5compat/src/core5/codecs/qwindowscodec_p.h
+
+PackageName: CMake
+SPDXID: SPDXRef-Package-qt5compat-system-build-tool-CMake-745310ad9a9b
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 3.28.3
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qt5compatSbomBuildToolCMake
+</text>
+FilesAnalyzed: false
+
+
+PackageName: CMake generator Ninja
+SPDXID: SPDXRef-Package-qt5compat-system-build-tool-CMake-generator-Ninja-745310ad9a9b
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 1.11.1
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qt5compatSbomBuildToolCMakeGenerator
+</text>
+FilesAnalyzed: false
+
+
+PackageName: Compiler GNU
+SPDXID: SPDXRef-Package-qt5compat-system-build-tool-Compiler-GNU-745310ad9a9b
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 13.0.0
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>The compiler as identified by CMake, running on 'Linux' (x86_64)</text>
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qt5compatSbomBuildToolCompiler
+</text>
+FilesAnalyzed: false
+
+
+LicenseID: LicenseRef-Qt-Commercial
+ExtractedText: <text>Licensees holding valid commercial Qt licenses may use this software in
+accordance with the the terms contained in a written agreement between
+you and The Qt Company. Alternatively, the terms and conditions that were
+accepted by the licensee when buying and/or downloading the
+software do apply.
+
+For the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.
+For further information use the contact form at https://www.qt.io/contact-us.
+</text>

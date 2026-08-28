@@ -1,0 +1,197 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qtserialport-6.11.2
+DocumentNamespace: https://qt.io/spdxdocs/qtserialport-6.11.2-host-linux-x86_64-target-windows-mingw-x86_64-fe45a291-7ee7-517f-87cd-284d8571f5fd
+Creator: Organization: TheQtCompany
+Creator: Tool: Qt Build System
+CreatorComment: <text>This SPDX document was created from CMake 3.28.3, using the qt
+build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
+Created: 2026-08-28T15:09:01Z
+ExternalDocumentRef: DocumentRef-qtbase-91d8493106e5 https://qt.io/spdxdocs/qtbase-6.11.2-host-linux-x86_64-target-windows-mingw-x86_64-c3cc7944-784b-5458-ae65-6e3ad5af7e6f SHA1: 7c687af8de20be6fd665df2323d31f51381ec403
+
+PackageName: qtserialport
+SPDXID: SPDXRef-Package-qtserialport-e2b1a2ece47a
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtserialport:6.11.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtserialport@6.11.2
+PackageVersion: 6.11.2
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtserialport@6.11.2
+PackageSupplier: Organization: TheQtCompany
+PackageDownloadLocation: git://code.qt.io/qt/qtserialport.git@1bc5803a397f1f22b7b305a751f78ad1c6997cc4
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: Copyright (C) The Qt Company Ltd. and other contributors.
+PackageHomePage: https://qt.io
+PackageComment: <text>Built by CMake 3.28.3 with Release configuration for Windows (x86_64)</text>
+FilesAnalyzed: false
+BuiltDate: 2026-08-28T15:09:01Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qtserialport-e2b1a2ece47a
+Relationship: SPDXRef-Package-qtserialport-system-build-tool-CMake-e2b1a2ece47a BUILD_DEPENDENCY_OF SPDXRef-Package-qtserialport-e2b1a2ece47a
+RelationshipComment: <text>SPDXRef-Package-qtserialport-e2b1a2ece47a is built using CMake version 3.28.3</text>
+Relationship: SPDXRef-Package-qtserialport-system-build-tool-CMake-generator-Ninja-e2b1a2ece47a BUILD_DEPENDENCY_OF SPDXRef-Package-qtserialport-e2b1a2ece47a
+RelationshipComment: <text>SPDXRef-Package-qtserialport-e2b1a2ece47a is built using generator CMAKE_GENERATOR: 'Ninja' and CMAKE_MAKE_PROGRAM: 'ninja' version '1.11.1'</text>
+Relationship: SPDXRef-Package-qtserialport-system-build-tool-Compiler-GNU-e2b1a2ece47a BUILD_DEPENDENCY_OF SPDXRef-Package-qtserialport-e2b1a2ece47a
+RelationshipComment: <text>SPDXRef-Package-qtserialport-e2b1a2ece47a is built by compiler: 'GNU' version: '13.0.0' frontend variant: 'GNU'</text>
+
+PackageName: SerialPort
+SPDXID: SPDXRef-Package-qtserialport-qt-module-SerialPort-e2b1a2ece47a
+PackageDownloadLocation: git://code.qt.io/qt/qtserialport.git@1bc5803a397f1f22b7b305a751f78ad1c6997cc4
+PackageVersion: 6.11.2
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtserialport@1bc5803?library_name=SerialPort#src/serialport
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtserialport-SerialPort@1bc5803?vcs_url=https://code.qt.io/qt/qtserialport.git@1bc5803&library_name=SerialPort#src/serialport
+PackageCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: SerialPort
+CMake exported target name: Qt6::SerialPort
+Contained in CMake package: Qt6SerialPort
+</text>
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.11.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtserialport:6.11.2:*:*:*:*:*:*:*
+PackageVerificationCode: 3ff32567e5af512c0044bf0f7b81a68d7a627d0f
+FilesAnalyzed: true
+Relationship: SPDXRef-Package-qtserialport-e2b1a2ece47a CONTAINS SPDXRef-Package-qtserialport-qt-module-SerialPort-e2b1a2ece47a
+Relationship: SPDXRef-Package-qtserialport-qt-module-SerialPort-e2b1a2ece47a DEPENDS_ON DocumentRef-qtbase-91d8493106e5:SPDXRef-Package-qtbase-qt-module-Core-91d8493106e5
+Relationship: SPDXRef-Package-qtserialport-qt-module-SerialPort-e2b1a2ece47a DEPENDS_ON DocumentRef-qtbase-91d8493106e5:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-91d8493106e5
+
+FileName: ./bin/Qt6SerialPort.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a
+FileType: BINARY
+FileChecksum: SHA1: de15800d6a984d314fc736928b377ae8abb8c752
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtserialport-qt-module-SerialPort-e2b1a2ece47a CONTAINS SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport//tmp/claude-0/-home-user-winlibs/f343f3a4-6c75-5ecd-a050-15e02fa072aa/scratchpad/build/qt-cross-qtserialport/src/serialport/SerialPort_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtserialport/include/QtSerialPort/qtserialportexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialport.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialport.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialport_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialportglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialportinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialportinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialportinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/removed_api.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtserialport/src/serialport/qtserialport-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtserialport/src/serialport/qtserialport-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialport_win.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialportinfo_win.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qwinoverlappedionotifier.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qwinoverlappedionotifier_p.h
+
+FileName: ./lib/libQt6SerialPort.a
+SPDXID: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a
+FileType: BINARY
+FileChecksum: SHA1: 356a66e1a4543a6f2ef02e6c33101e65a05ce7dd
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtserialport-qt-module-SerialPort-e2b1a2ece47a CONTAINS SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport//tmp/claude-0/-home-user-winlibs/f343f3a4-6c75-5ecd-a050-15e02fa072aa/scratchpad/build/qt-cross-qtserialport/src/serialport/SerialPort_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtserialport/include/QtSerialPort/qtserialportexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialport.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialport.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialport_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialportglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialportinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialportinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialportinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/removed_api.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtserialport/src/serialport/qtserialport-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtserialport/src/serialport/qtserialport-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialport_win.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qserialportinfo_win.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qwinoverlappedionotifier.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-e2b1a2ece47a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtserialport/src/serialport/qwinoverlappedionotifier_p.h
+
+PackageName: CMake
+SPDXID: SPDXRef-Package-qtserialport-system-build-tool-CMake-e2b1a2ece47a
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 3.28.3
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtserialportSbomBuildToolCMake
+</text>
+FilesAnalyzed: false
+
+
+PackageName: CMake generator Ninja
+SPDXID: SPDXRef-Package-qtserialport-system-build-tool-CMake-generator-Ninja-e2b1a2ece47a
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 1.11.1
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtserialportSbomBuildToolCMakeGenerator
+</text>
+FilesAnalyzed: false
+
+
+PackageName: Compiler GNU
+SPDXID: SPDXRef-Package-qtserialport-system-build-tool-Compiler-GNU-e2b1a2ece47a
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 13.0.0
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>The compiler as identified by CMake, running on 'Linux' (x86_64)</text>
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtserialportSbomBuildToolCompiler
+</text>
+FilesAnalyzed: false
+
+
+LicenseID: LicenseRef-Qt-Commercial
+ExtractedText: <text>Licensees holding valid commercial Qt licenses may use this software in
+accordance with the the terms contained in a written agreement between
+you and The Qt Company. Alternatively, the terms and conditions that were
+accepted by the licensee when buying and/or downloading the
+software do apply.
+
+For the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.
+For further information use the contact form at https://www.qt.io/contact-us.
+</text>
