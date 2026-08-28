@@ -7,7 +7,7 @@ Creator: Organization: TheQtCompany
 Creator: Tool: Qt Build System
 CreatorComment: <text>This SPDX document was created from CMake 3.28.3, using the qt
 build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
-Created: 2026-08-28T16:22:39Z
+Created: 2026-08-28T16:25:58Z
 ExternalDocumentRef: DocumentRef-qtbase-91d8493106e5 https://qt.io/spdxdocs/qtbase-6.11.2-host-linux-x86_64-target-windows-mingw-x86_64-c3cc7944-784b-5458-ae65-6e3ad5af7e6f SHA1: 7c687af8de20be6fd665df2323d31f51381ec403
 
 PackageName: qtshadertools
@@ -24,7 +24,7 @@ PackageCopyrightText: Copyright (C) The Qt Company Ltd. and other contributors.
 PackageHomePage: https://qt.io
 PackageComment: <text>Built by CMake 3.28.3 with Release configuration for Windows (x86_64)</text>
 FilesAnalyzed: false
-BuiltDate: 2026-08-28T16:22:39Z
+BuiltDate: 2026-08-28T16:25:58Z
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qtshadertools-6835ec99ffba
 Relationship: SPDXRef-Package-qtshadertools-system-build-tool-CMake-6835ec99ffba BUILD_DEPENDENCY_OF SPDXRef-Package-qtshadertools-6835ec99ffba
 RelationshipComment: <text>SPDXRef-Package-qtshadertools-6835ec99ffba is built using CMake version 3.28.3</text>
@@ -194,7 +194,7 @@ Contained in CMake package: Qt6ShaderTools
 </text>
 ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.11.2:*:*:*:*:*:*:*
 ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtshadertools:6.11.2:*:*:*:*:*:*:*
-PackageVerificationCode: e7f707a7d569ad10fc7adae522b3a160a48ae2be
+PackageVerificationCode: 84414d7a8c280b188f3e786f6eacd9a34e0c9716
 FilesAnalyzed: true
 Relationship: SPDXRef-Package-qtshadertools-6835ec99ffba CONTAINS SPDXRef-Package-qtshadertools-qt-module-ShaderTools-6835ec99ffba
 Relationship: SPDXRef-Package-qtshadertools-qt-module-ShaderTools-6835ec99ffba DEPENDS_ON DocumentRef-qtbase-91d8493106e5:SPDXRef-Package-qtbase-qt-module-Gui-91d8493106e5
@@ -208,7 +208,7 @@ Relationship: SPDXRef-Package-qtshadertools-qt-module-ShaderTools-6835ec99ffba D
 FileName: ./bin/Qt6ShaderTools.dll
 SPDXID: SPDXRef-PackagedFile-qt-module-ShaderTools-6835ec99ffba
 FileType: BINARY
-FileChecksum: SHA1: 53a2169525e0f93a992c3b3498a89b22e2d5de98
+FileChecksum: SHA1: f960689630944a268ef6e7b2007d7bd0cf894b91
 LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
 FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
 LicenseInfoInFile: NOASSERTION
