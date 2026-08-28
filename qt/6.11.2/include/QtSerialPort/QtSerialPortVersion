@@ -1,0 +1,1 @@
+#include <QtSerialPort/qtserialportversion.h> // IWYU pragma: export
