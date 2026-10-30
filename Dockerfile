@@ -60,6 +60,7 @@ RUN build-scripts/build-protobuf.sh
 
 # Boost and its consumers.
 RUN build-scripts/build-boost.sh
+RUN build-scripts/build-boost-1.86.sh
 RUN build-scripts/build-wt.sh
 RUN build-scripts/build-cpprestsdk.sh
 
@@ -71,6 +72,9 @@ RUN build-scripts/build-marble.sh
 
 # mingw runtime DLLs to ship next to application executables.
 RUN build-scripts/build-runtime-dlls.sh
+
+# Developer tools: clang-format / clang-tidy from the official LLVM release.
+RUN build-scripts/build-llvm-tools.sh
 
 # Drop the scratch space so the final image holds only the results.
 FROM toolchain
